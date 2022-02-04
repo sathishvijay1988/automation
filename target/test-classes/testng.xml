@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Yahoo Test Suite"  >
+    <!-- suite name="Suite Name" -->
+
+
+    <test name="YahooTest" allow-return-values="true">
+        <parameter name = "stockName" value="SWKS,QCOM,QRVO,KLAC,ASM"/>
+        <classes>
+            <class name = "YahooFinanceTest" />
+        </classes>
+    </test>
+
+</suite>
