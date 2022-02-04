@@ -1,4 +1,6 @@
 # automation
+# Use testng.xml to execute tests
+#
 #please make chrome brower and chrome driver versions in sync.
 #
 #this project uses -
@@ -20,3 +22,5 @@
 #        high
 #        low
 #        current
+#
+#
