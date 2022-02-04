@@ -3,12 +3,12 @@ package ui;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class InitiUI {
+public class InitUI {
     private WebDriver driver;
     //change browser driver
     private static final  String DRIVER_PATH = "/Users/abiramirajendran/drivers/chromedriver";
 
-    public InitiUI() {
+    public InitUI() {
         System.setProperty("webdriver.chrome.driver", DRIVER_PATH);
         this.driver = new ChromeDriver();
     }
