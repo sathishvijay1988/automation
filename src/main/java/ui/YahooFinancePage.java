@@ -11,7 +11,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
-public class YahooFinancePage extends InitiUI {
+public class YahooFinancePage extends InitUI {
     private static final Logger log = Logger.getLogger(YahooFinancePage.class);
 
     private WebDriver driver;
